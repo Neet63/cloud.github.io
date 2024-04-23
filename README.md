@@ -6,6 +6,26 @@
 
 <h1>Cloud IA</h1>
 
+
+<h3>Project Overview</h3>
+This project contains a login form and an additional form for adding products. Each component of the application (frontend, backend, MySQL database) is containerized using Docker. The necessary Dockerfiles and Docker Compose configuration are provided in this repository.
+
+<h3>Prerequisites</h3>
+Make sure you have Docker installed on your system. You can download and install Docker from here.
+
+<h3>Getting Started</h3>
+1.To get started with this project, follow these steps:
+  git clone https://github.com/aryan-1503/todo_db.git
+2.Navigate to the project directory:
+  cd your-repo
+3.Build the Docker images::
+  docker pull neet63.cloudia2
+# Add commands to build your Docker images for both the login form and the product form
+4.Run the Docker containers using Docker Compose:
+  
+
+
+
 <h3>1. Project Download:</h3>
    - Download a project containing both frontend and backend code with a MySQL database. For example, a project with a simple form frontend, a Flask backend, and MySQL database.
 
