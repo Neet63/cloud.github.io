@@ -6,19 +6,19 @@
 
 Cloud IA2
 
-**#1. Project Download:**
+**1. Project Download:**
    - Download a project containing both frontend and backend code with a MySQL database. For example, a project with a simple form frontend, a Flask backend, and MySQL database.
 
-#2. Making Dockerfile:
+**2. Making Dockerfile:**
    - Write Dockerfiles for frontend, backend, and database.
    - Each Dockerfile should define the necessary environment and dependencies for the respective component.
    - Ensure that the Dockerfiles correctly set up the container environment for running the frontend, backend, and database components.
 
-#3. DockerHub Repository:
+**3. DockerHub Repository:**
    - Create a new repository on Docker Hub where you will push your Docker images.
    - Log in to Docker Hub if you haven't already.
 
-#4. Creating Images and Containers:
+**4. Creating Images and Containers:**
    - Build the Docker images for frontend, backend, and database:
      
      docker build -t username/Reponame .
@@ -29,14 +29,14 @@ Cloud IA2
      docker-compose up
     
 
-#5. Log in to Docker Hub:
+**5. Log in to Docker Hub:**
    - Log in to Docker Hub using the following command:
      
      docker login
     
    - Enter your Docker Hub username and password when prompted.
 
-#6. Push the Images and Containers:
+**6. Push the Images and Containers:**
    - Push your Docker images to Docker Hub using the following command:
    
      docker push username/Reponame
