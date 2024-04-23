@@ -1,42 +1,42 @@
 # cloud.github.io
 
-**Name: Neet Lathiya**
+<h1>Name: Neet Lathiya</h1>
 
-**Roll Number : 21BCP291**
+<h1>Roll Number : 21BCP291</h1>
 
-Cloud IA
+<h1>Cloud IA</h1>
 
-<h1>1. Project Download:</h1>
+<h3>1. Project Download:</h3>
    - Download a project containing both frontend and backend code with a MySQL database. For example, a project with a simple form frontend, a Flask backend, and MySQL database.
 
-**2. Making Dockerfile:**
+<h3>2. Making Dockerfile:</h3>
    - Write Dockerfiles for frontend, backend, and database.
    - Each Dockerfile should define the necessary environment and dependencies for the respective component.
    - Ensure that the Dockerfiles correctly set up the container environment for running the frontend, backend, and database components.
 
-**3. DockerHub Repository:**
+<h3>3. DockerHub Repository:</h3>
    - Create a new repository on Docker Hub where you will push your Docker images.
    - Log in to Docker Hub if you haven't already.
 
-**4. Creating Images and Containers:**
+<h3>4. Creating Images and Containers:</h3>
    - Build the Docker images for frontend, backend, and database:
      
-     docker build -t username/Reponame .
+     **docker build -t username/Reponame .**
      
      Replace `username` with your Docker Hub username and `Reponame` with the name of your repository.
    - Use Docker Compose to bring up the containers:
      
-     docker-compose up
+     **docker-compose up**
     
 
-**5. Log in to Docker Hub:**
+<h3>5. Log in to Docker Hub:</h3>
    - Log in to Docker Hub using the following command:
      
      docker login
     
    - Enter your Docker Hub username and password when prompted.
 
-**6. Push the Images and Containers:**
+<h3>6. Push the Images and Containers:</h3>
    - Push your Docker images to Docker Hub using the following command:
    
      docker push username/Reponame
