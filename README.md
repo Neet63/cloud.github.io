@@ -6,7 +6,7 @@
 
 Cloud IA2
 
-**1. Project Download:**
+<h1>1. Project Download:</h1>
    - Download a project containing both frontend and backend code with a MySQL database. For example, a project with a simple form frontend, a Flask backend, and MySQL database.
 
 **2. Making Dockerfile:**
