@@ -37,6 +37,7 @@ Make sure you have Docker installed on your system. You can download and install
 <h3>3. DockerHub Repository:</h3>
    - Create a new repository on Docker Hub where you will push your Docker images.
    - Log in to Docker Hub if you haven't already.
+![Screenshot 2024-04-24 041145](https://github.com/Neet63/cloud.github.io/assets/146973956/7ef50b5b-518b-4e85-87d8-000a123334e3)
 
 <h3>4. Creating Images and Containers:</h3>
    - Build the Docker images for frontend, backend, and database:
@@ -47,7 +48,9 @@ Make sure you have Docker installed on your system. You can download and install
    - Use Docker Compose to bring up the containers:
      
      **docker-compose up**
-    
+    ![Screenshot 2024-04-24 011951](https://github.com/Neet63/cloud.github.io/assets/146973956/bab60c79-1c4f-4d0b-8bed-cc14b4d52f43)
+
+![Screenshot 2024-04-24 012003](https://github.com/Neet63/cloud.github.io/assets/146973956/b7d333e2-ee26-42cc-812d-cfc913a0475f)
 
 <h3>5. Log in to Docker Hub:</h3>
    - Log in to Docker Hub using the following command:
@@ -62,5 +65,6 @@ Make sure you have Docker installed on your system. You can download and install
      docker push username/Reponame
     
      Replace `username` with your Docker Hub username and `Reponame` with the name of your repository.
+![Screenshot 2024-04-24 012018](https://github.com/Neet63/cloud.github.io/assets/146973956/be6fa1f3-e63f-4c4a-b62a-3b59f0137aee)
 
 By following these steps, you should be able to build Docker images for your frontend, backend, and database components, run them as containers, and then push them to Docker Hub for deployment or sharing. Make sure to replace placeholder values like `username` and `Reponame` with your actual Docker Hub username and repository name.
