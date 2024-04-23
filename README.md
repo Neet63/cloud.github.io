@@ -1,10 +1,10 @@
 # cloud.github.io
 
-<h1>Name: Neet Lathiya</h1>
+<h1>Name : Neet Lathiya </h1>
 
 <h1>Roll Number : 21BCP291</h1>
 
-<h1>Cloud IA</h1>
+<h1>Cloud IA2</h1>
 
 
 <h3>Project Overview</h3>
